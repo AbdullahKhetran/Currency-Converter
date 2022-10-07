@@ -3,7 +3,7 @@ let btn = document.getElementById("btn");
 btn.addEventListener("click", convert);
 
 function convert() {
-    // console.log("button is clicked");
+    console.log("button is clicked");
 
     let base = parseInt(document.getElementById("myInput").value);
 
@@ -28,7 +28,7 @@ let btn1 = document.getElementById("btn1");
 btn1.addEventListener("click", convert1);
 
 function convert1() {
-    // console.log("button is clicked");
+    console.log("second button is clicked");
 
     let base1 = parseFloat(document.getElementById("myInput1").value);
 
