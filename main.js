@@ -20,6 +20,7 @@ function convert() {
 
 let rate1 = parseFloat(document.getElementById("rate1").innerText); // converting to decimal
 rate1 = 1 / 220; // assigning value
+
 // changing value and limiting to 4 decimal places
 document.getElementById("rate1").innerText = rate1.toFixed(4);
 document.getElementById("quote1").innerText = rate1.toFixed(4);
@@ -32,8 +33,7 @@ function convert1() {
 
     let base1 = parseFloat(document.getElementById("myInput1").value);
 
-    let rate_t = 1 / 220;
-    // assign non numeric value
+    let rate_t = 1 / 220; // assign non numeric value
 
     let quote1 = parseFloat(document.getElementById("quote1"));
     quote1 = base1 * rate_t;
